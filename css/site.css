@@ -179,8 +179,8 @@ footer{background:var(--navy2);color:#b6bfe0;padding:46px 0;text-align:center}
  nav{position:absolute;left:0;right:0;top:100%;background:var(--bg);flex-direction:column;align-items:stretch;gap:0;padding:8px 20px 18px;border-bottom:1px solid var(--line);display:none;box-shadow:0 14px 24px rgba(0,0,0,.12)}
  nav.open{display:flex}nav a{padding:13px 8px;border-radius:8px}nav a.btn{text-align:center;margin:8px 0 0}
  .grid{grid-template-columns:1fr 1fr;gap:12px}.grid4,.steps{grid-template-columns:1fr}
- .sec{padding:64px 0}.hero-in{padding:48px 0 40px}.hero-art{height:300px}
- .g1{width:140px}.g2{width:132px}.g3{width:150px}.r2{display:none}
+ .sec{padding:64px 0}.hero-in{padding:48px 0 40px}.hero-art{height:380px}
+ .g1{width:138px;top:0}.g2{width:132px;top:70px}.g3{width:150px;left:22%}.r2{display:none}
  .cta-band{padding:30px 22px}.wa-float span{display:none}.wa-float{padding:13px}
 }
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}.js .reveal{opacity:1;transform:none}}
