@@ -35,6 +35,8 @@ p,li{font-size:25px;line-height:1.45}
 .card h3{margin-bottom:14px;color:var(--navy)}
 .card ul,.card ol{padding-left:24px}.card li{margin-bottom:12px}
 .card p{font-size:24px}.card p+p{margin-top:14px}
+.card .plink{margin-top:18px;font-size:22px}
+.card .plink a{color:var(--navy);font-weight:700;text-decoration:none;border-bottom:2px solid var(--amber)}
 .formula{font-weight:700;color:var(--navy)}
 .name{font-weight:700;font-family:var(--h);font-size:28px!important}
 .grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}

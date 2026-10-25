@@ -1,4 +1,4 @@
-var C = 'zeeco-v1', F = ['./', 'index.html', 'css/style.css', 'js/app.js'];
+var C = 'zeeco-v2', F = ['./', 'index.html', 'css/style.css', 'js/app.js'];
 self.addEventListener('install', function (e) {
   e.waitUntil(caches.open(C).then(function (c) { return c.addAll(F); }).then(function () { return self.skipWaiting(); }));
 });
